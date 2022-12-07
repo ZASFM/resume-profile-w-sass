@@ -10,14 +10,14 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../dist/images/img.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.5)), url("../dist/images/img.jpg") center top;
   background-size: cover;
 }
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
 }
 .home__name--last {
   color: #ff652f;
@@ -25,8 +25,8 @@
 }
 
 body {
-  background-color: #272727;
-  color: white;
+  /* background-color: $primary-color; */
+  color: #fff;
   height: 100vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 1;
@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -59,6 +59,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
   color: #ff652f;
@@ -71,5 +72,6 @@ footer {
   right: 1rem;
   text-align: center;
   padding: 1rem;
-  color: white;
+  color: #272727;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

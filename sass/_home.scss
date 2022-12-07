@@ -7,7 +7,7 @@
    background:linear-gradient(
       to right,
       rgba($primary-color,0.9),
-      rgba($primary-color,0.3)
+      rgba($primary-color,0.5)
    ), url('../dist/images/img.jpg') center top;
    background-size: cover;
 
@@ -15,7 +15,7 @@
         font-size: 5rem;
         padding-bottom: 1rem;
         margin-top: 1rem;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid set-text-color($primary-color);
         
         &--last{
            color:$secondary-color;

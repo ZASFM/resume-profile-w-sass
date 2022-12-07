@@ -2,8 +2,8 @@
 @import './home';
 
 body{ 
-   background-color: $primary-color;
-   color:white;
+   /* background-color: $primary-color; */
+   color:set-text-color($primary-color);
    height: 100vh;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    line-height: 1;
@@ -14,7 +14,7 @@ h1,h2,h3{
 }
 
 a{
-   color:white;
+   color:set-text-color($primary-color);
    text-decoration: none;
 }
 
@@ -34,6 +34,7 @@ main{
       left:1rem;
       a{
          padding:0.4rem;
+         @include transition-ease;
          &:hover{
             color:$secondary-color;
          }
@@ -48,5 +49,6 @@ footer{
    right:1rem;
    text-align: center;
    padding:1rem;
-   color:white;
+   color:$primary-color;
+   font-weight: map-get($font-weights, regular );
 }
