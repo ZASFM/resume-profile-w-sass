@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>My profile</title>
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
+     <header>
+       <div class="menu-btn">
+         <span class="menu-btn__burger"></span>
+       </div>
+       <nav class="nav">
+         <ul class="menu-nav">
+            <li class="menu-nav__item">
+               <a href="index.html" class="menu-nav__link active">Home</a>
+            </li>
 
+            <li class="menu-nav__item">
+               <a href="about.html" class="menu-nav__link">About me</a>
+            </li>
+
+            <li class="menu-nav__item">
+               <a href="projects.html" class="menu-nav__link">My projects</a>
+            </li>
+
+            <li class="menu-nav__item">
+               <a href="contact.html" class="menu-nav__link">Contact me</a>
+            </li>
+         </ul>
+       </nav>
+     </header>
+     <main class="home">
+        <h2>Hello my name is:</h2>
+        <h1 class="home__name">
+         Mohammad <span class="home__name--last">Shafi</span>
+        </h1>
+        <h2>
+          Web developer, brogrammer, student and stuff!!
+        </h2>
+        <div class="social-icons">
+           <a href="#!">
+              <i class="fab fa-twitter"></i>
+           </a>
+           <a href="#!">
+            <i class="fab fa-facebook"></i>
+         </a>
+         <a href="#!">
+            <i class="fab fa-instagram"></i>
+         </a>
+         <a href="#!">
+            <i class="fab fa-github"></i>
+         </a>
+        </div>
+        <footer>
+         &copy; Copyright 
+        </footer>
+     </main>
+     <script src="./js/main.js"></script>
   </body>
 </html>
