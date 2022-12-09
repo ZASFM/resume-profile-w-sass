@@ -1,0 +1,23 @@
+.about{
+   padding-bottom: 2rem;
+   
+   &-bio__image{
+      height: 50vh;
+      width: 100%;
+      background:linear-gradient(
+         to right,
+         rgba($primary-color,0.9),
+         rgba($primary-color,0.5)
+      ), url('../dist/images/img.jpg') center top;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column; 
+
+      
+      p{
+         margin-bottom: 2rem ;
+      }
+   }
+}
