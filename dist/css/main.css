@@ -64,6 +64,13 @@
   transform: rotate(720deg);
   background-color: transparent;
 }
+.menu-btn__burger.open::after {
+  width: 28px;
+  transform: rotate(-45deg) translate(3px, -7px);
+}
+.menu-btn__burger.open::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
 
 body {
   /* background-color: $primary-color; */
