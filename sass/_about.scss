@@ -35,7 +35,6 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-gap:2rem;
-      color:black;
 
       &__job{
          background: lighten($primary-color, 10%);
@@ -54,7 +53,6 @@
    .social-icons{
       display: flex;
       flex-direction: column;
-      color: black;
    }
 
    footer{
