@@ -18,6 +18,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
+  background-color: #272727;
 }
 .home__name--last {
   color: #ff652f;
@@ -150,8 +151,42 @@
   align-items: center;
   flex-direction: column;
 }
-.about-bio__image p {
+.about p {
   margin-bottom: 2rem;
+}
+.about__bio {
+  width: 80%;
+  text-align: center;
+}
+.about__bio.text_secondary {
+  padding-bottom: 1rem;
+}
+.about .jobs {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  color: black;
+}
+.about .jobs__job {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+}
+.about .jobs__job h2, .about .jobs__job h3 {
+  margin: 0.5rem 0;
+}
+.about .jobs__job h6 {
+  margin: 0.3rem 0;
+}
+.about .social-icons {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.about footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 body {

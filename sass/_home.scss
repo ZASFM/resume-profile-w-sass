@@ -16,6 +16,7 @@
         padding-bottom: 1rem;
         margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
+        background-color: $primary-color;
         
         &--last{
            color:$secondary-color;
@@ -23,3 +24,4 @@
         }
      }  
 }
+
